@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: initial;
+}
+
+.item {
+    text-align: left;
+    width: 23%;
+    margin-left: 24px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+li  {
+    margin: 10px;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: floralwhite;
+}
+
+p {
+    color: dimgrey;
+}

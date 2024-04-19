@@ -1,0 +1,13 @@
+.block {
+    width: 24%;
+    display: inline-block;
+}
+
+.wrapper {
+    text-align: center;
+    font-size: 2px;
+}
+
+.block img {
+    width: 100%;
+}
