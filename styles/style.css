@@ -1,0 +1,130 @@
+.body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.header-nav {
+    max-width: 1300px;
+    min-height: 50px;
+    max-height: 50px;
+    margin: 20px auto 0;
+}
+
+.header-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+}
+
+.logo-text {
+    align-content: center;
+    color: #46A358;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+li a:focus {
+    font-weight: bold;
+    text-decoration: underline 5px #46A358;
+    text-underline-position: under;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-login {
+    width: 100px;
+    height: 30px;
+    background-color: #46A358;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.main-banner {
+    background-color: #F5F5F5;
+    max-width: 1300px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container {
+    display: flex;
+}
+
+.images-container {
+    display: flex;
+}
+
+.small-plant {
+    position: relative;
+    top: 295px;
+    left: 190px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    margin-left: 50px;
+}
+
+.welcome {
+    font-weight: 500;
+    color: #3D3D3D;
+    margin-bottom: 5px;
+}
+
+.big-text {
+    font-weight: 900;
+    font-size: 70px;
+    color: #3D3D3D;
+}
+
+span {
+    color: #46A358;
+}
+
+.classic-text {
+    margin-top: 5px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.btn-container {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.btn-shop {
+    background-color: #46A358;
+    color: white;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+}
