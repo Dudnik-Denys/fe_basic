@@ -5,56 +5,166 @@
     <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>GreenShop</title>
+    <link rel="stylesheet" href="/styles/fonts.css">
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-nav">
-            <div class="header-nav-container">
-                <div class="header-logo">
-                    <img src="/images/Vector.png" alt="logo">
-                    <div class="logo-text"><b>GREENSHOP</b></div>
-                </div>
-                <nav class="header-nav-menu">
-                    <ul class="nav-list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Plant Care</a></li>
-                        <li><a href="#">Blogs</a></li>
-                    </ul>
-                </nav>
-                <button class="btn-login">
-                    <a href="#">Login</a>
-                </button>
-            </div>
-        </div>
+    <header>
     </header>
     <main>
-        <section class="main-banner">
+        <section class="catalog">
             <div class="container">
-                <div class="banner-text">
-                    <p class="welcome">WELCOME TO GREENSHOP</p>
-                    <p class="big-text">LET'S MAKE A BETTER <span class="green-text">PLANET</span></p>
-                    <p class="classic-text">We are an online shop offering a wide range of cheap and trendy plants.
-                        Use our plants to create an unique Urban Jungle. Order your favorite plants!
-                        <div class="btn-container">
-                            <button class="btn-shop">
-                                <a href="#">SHOP NOW</a>
-                            </button>
+                <div class="catalog__content">
+                    <div class="catalog__categories">
+                        <nav>
+                            <ul><h4>Categories</h4>
+                                <li><button><a href="#">House Plants</a></button></li>
+                                <li><button><a href="#">Potter Plants</a></button></li>
+                                <li><button><a href="#">Seeds</a></button></li>
+                                <li><button><a href="#">Small Plants</a></button></li>
+                                <li><button><a href="#">Big Plants</a></button></li>
+                                <li><button><a href="#">Succulents</a></button></li>
+                                <li><button><a href="#">Terrariums</a></button></li>
+                                <li><button><a href="#">Gardening</a></button></li>
+                                <li><button><a href="#">Accessories</a></button></li>
+                            </ul>
+                        </nav>
+                        <div class="sale-banner">
+                            <img src="/images/super_sale_banner.png" alt="sale banner">
                         </div>
-                    </p>
-                </div>
-                <div class="images-container">
-                    <div class="small-plant">
-                        <img src="/images/01-2.png" alt="small plant">
                     </div>
-                    <div class="big-plant">
-                        <img src="/images/01-1.png" alt="big plant">
+                    <div class="catalog__products">
+                        <div class="catalog__settings">
+                            <div class="catalog__settings-filter">
+                                <ul>
+                                    <li><a href="#">All Plants</a></li>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                </ul>
+                            </div>
+                            <div class="catalog__settings-sorting">Sort by:
+                                <select name="default">
+                                    <option value="default">Default sorting</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="catalog__product">
+                            <div class="catalog__product-image">
+                                <img src="/images/image9.png" alt="flower">
+                            </div>
+                            <div class="catalog__product-title">
+                                <h6>Barberton Daisy</h6>
+                            </div>
+                            <div class="catalog__product-price">
+                                $119.00
+                            </div>
+                        </div>
+                        <div class="catalog__product">
+                            <div class="catalog__product-image">
+                                <img src="/images/image2.png" alt="flower">
+                            </div>
+                            <div class="catalog__product-title">
+                                <h6>Angel Wing Begonia</h6>
+                            </div>
+                            <div class="catalog__product-price">
+                                $119.00
+                            </div>
+                        </div>
+                        <div class="catalog__product">
+                            <div class="catalog__product-image">
+                                <img src="/images/image3.png" alt="flower">
+                            </div>
+                            <div class="catalog__product-title">
+                                <h6>African Violet</h6>
+                            </div>
+                            <div class="catalog__product-price">
+                                $119.00
+                            </div>
+                        </div>
+                        <div class="catalog__product">
+                            <div class="catalog__product-image">
+                                <img src="/images/image4.png" alt="flower">
+                            </div>
+                            <div class="catalog__product-title">
+                                <h6>Beach Spider Lily</h6>
+                            </div>
+                            <div class="catalog__product-price">
+                                $119.00
+                            </div>
+                        </div>
+                        <div class="catalog__product">
+                            <div class="catalog__product-image">
+                                <img src="/images/image5.png" alt="flower">
+                            </div>
+                            <div class="catalog__product-title">
+                                <h6>Blushing Bromeliad</h6>
+                            </div>
+                            <div class="catalog__product-price">
+                                $119.00
+                            </div>
+                        </div>
+                        <div class="catalog__product">
+                            <div class="catalog__product-image">
+                                <img src="/images/image6.png" alt="flower">
+                            </div>
+                            <div class="catalog__product-title">
+                                <h6>Aluminum Plant</h6>
+                            </div>
+                            <div class="catalog__product-price">
+                                $119.00
+                            </div>
+                        </div>
+                        <div class="catalog__product">
+                            <div class="catalog__product-image">
+                                <img src="/images/image7.png" alt="flower">
+                            </div>
+                            <div class="catalog__product-title">
+                                <h6>Bird's Nest Fern</h6>
+                            </div>
+                            <div class="catalog__product-price">
+                                $119.00
+                            </div>
+                        </div>
+                        <div class="catalog__product">
+                            <div class="catalog__product-image">
+                                <img src="/images/image8.png" alt="flower">
+                            </div>
+                            <div class="catalog__product-title">
+                                <h6>Broadleaf Lady Palm</h6>
+                            </div>
+                            <div class="catalog__product-price">
+                                $119.00
+                            </div>
+                        </div>
+                        <div class="catalog__product">
+                            <div class="catalog__product-image">
+                                <img src="/images/image9.png" alt="flower">
+                            </div>
+                            <div class="catalog__product-title">
+                                <h6>Chinese Evergreen</h6>
+                            </div>
+                            <div class="catalog__product-price">
+                                $119.00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__pagination">
+                        <nav>
+                            <ul>
+                                <li><button><a href="#">1</a></button></li>
+                                <li><button><a href="#">2</a></button></li>
+                                <li><button><a href="#">3</a></button></li>
+                                <li><button><a href="#">4</a></button></li>
+                                <li><button><a href="#">></a></button></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+    </footer>
 </body>
 </html>
